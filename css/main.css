@@ -5,7 +5,7 @@ main {
 .main-list {
   display: flex;
   justify-content: start;
-  align-items: start;
+  align-items: center;
   border-bottom: 1px solid #ededef;
   padding: 20px 0 20px 0;
 }
@@ -47,7 +47,6 @@ main {
 
 .write-btn {
   background-color: #ff6f0f;
-
   color: white;
   padding: 10px 15px 10px 15px;
   border-radius: 25px;
@@ -56,4 +55,10 @@ main {
   bottom: 110px;
   right: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: poionter;
+  transition: all 1s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: #ff6f0f54;
 }
