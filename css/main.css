@@ -56,9 +56,9 @@ main {
   right: 20px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   cursor: poionter;
-  transition: all 1s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .write-btn:hover {
-  background-color: #ff6f0f54;
+  background-color: var(--button-hover);
 }
